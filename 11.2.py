@@ -35,3 +35,10 @@ def Concise_invert_dict(d):
         val=d[key]
         inverse.setdefault(val,(key))
     return inverse
+
+a=dict()
+a[0]=1
+a[1]=2
+
+print(Concise_invert_dict(a))
+
